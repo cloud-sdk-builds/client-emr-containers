@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-emr-containers`](https://www.npmjs.com/package/@aws-sdk/client-emr-containers/v/3.1102.0).
+[`@aws-sdk/client-emr-containers`](https://www.npmjs.com/package/@aws-sdk/client-emr-containers/v/3.1103.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-emr-containers - [https://cloud-sdk-builds.github.io/?sdk=client-emr-containers](https://cloud-sdk-builds.github.io/?sdk=client-emr-containers)
-- @aws-sdk/client-emr-containers v3.1102.0 - [https://cloud-sdk-builds.github.io/?sdk=client-emr-containers&version=3.1102.0](https://cloud-sdk-builds.github.io/?sdk=client-emr-containers&version=3.1102.0)
+- @aws-sdk/client-emr-containers v3.1103.0 - [https://cloud-sdk-builds.github.io/?sdk=client-emr-containers&version=3.1103.0](https://cloud-sdk-builds.github.io/?sdk=client-emr-containers&version=3.1103.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1102.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1103.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-hw0XWXghzNAJva+dq6Gpxjss68NbIgZxJL3TAj8JswyF6DCP5pvHuZElHOZM6E9M
+sha384-zRqe7SiiL2a8CdVSnVhhwiIysvYOkRqIfP4csGr84SShYqTDBv329UR9Z2cyoCFV
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-emr-containers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1102.0/index.min.mjs"
+            "@aws-sdk/client-emr-containers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1103.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1102.0/index.min.mjs": "sha384-hw0XWXghzNAJva+dq6Gpxjss68NbIgZxJL3TAj8JswyF6DCP5pvHuZElHOZM6E9M"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1103.0/index.min.mjs": "sha384-zRqe7SiiL2a8CdVSnVhhwiIysvYOkRqIfP4csGr84SShYqTDBv329UR9Z2cyoCFV"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-emr-containers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1102.0/index.min.mjs"
+                        "@aws-sdk/client-emr-containers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1103.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1102.0/index.min.mjs": "sha384-hw0XWXghzNAJva+dq6Gpxjss68NbIgZxJL3TAj8JswyF6DCP5pvHuZElHOZM6E9M"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-emr-containers@3.1103.0/index.min.mjs": "sha384-zRqe7SiiL2a8CdVSnVhhwiIysvYOkRqIfP4csGr84SShYqTDBv329UR9Z2cyoCFV"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1102.0`)
+* Always pin to a specific version (`@3.1103.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-emr-containers/blob/refs/tags/3.1102.0/LICENSE
+https://github.com/cloud-sdk-builds/client-emr-containers/blob/refs/tags/3.1103.0/LICENSE
 ```
 
 ---
